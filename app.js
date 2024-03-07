@@ -9,7 +9,7 @@ app.get('/', async (req, res) => {
     //if (!address) {
     //    return res.status(400).json({ error: 'Address parameter is missing.' });
     //}
-    address = '0x758b8178A9A4B7206D1f648c4a77C515CbaC7000';
+    address = '0x7XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
     try {
         const response = await axios.get(`https://api.etherscan.io/api`, {
             params: {
