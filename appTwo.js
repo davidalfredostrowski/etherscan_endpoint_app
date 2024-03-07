@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
-const API_KEY = 'J1ZH3DNWVB6W8UXHB2HHV8ZV5C74D17ZSD';
+const API_KEY = 'J1D';
 
 app.get('/eth_balance', async (req, res) => {
     const { address } = req.query;
