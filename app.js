@@ -1,9 +1,6 @@
 const express = require('express');
 const axios = require('axios');
-
 const app = express();
-
-// Replace 'YOUR_API_KEY' with your actual Etherscan API key
 
 const API_KEY = 'J1ZH3DNWVB6W8UXHB2HHV8ZV5C74D17ZSD';
 
