@@ -1,0 +1,128 @@
+ ls
+    2  sudo apt-get update
+    3  sudo apt-get install -y ca-certificates curl gnupg
+    4  sudo mkdir -p /etc/apt/keyrings
+    5  curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+    6  NODE_MAJOR=20
+    7  echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+    8  sudo apt-get update
+    9  sudo apt-get install nodejs -y
+   10  node -v
+   11  sudo snap install docker
+   12  npm install express --save
+   13  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+   14  sudo npm install -g heroku --force
+   15  npm install express axios
+   16  mkdir alfredo
+   17  cd alfredo/
+   18  vi app.js
+   19  node app.js
+   20  vi app.js
+   21  node app.js
+   22  vi app.js
+   23  node app.js
+   24  vi app.js
+   25  node app.js
+   26  vi .dockerignore
+   27  vi Dockerfile
+   28  vi heroku.yml
+   29  vi package.json
+   30  sudo docker build -t alfredo .
+   31  sudo docker run -p 8080:8080 -tid alfredo
+   32  ps -a
+   33  docker ps
+   34  sudo docker ps
+   35  vi app.js
+   36  node app.js
+   37  sudo docker build -t alfredo .
+   38  sudo docker run -p 8080:8080 -tid alfredo
+   39  docker ps
+   40  sudo docker ps
+   41  sudo docker run -p 8080:8080 -tid alfredo
+   42  heroku login -i
+   43  git init
+   44  git add -A
+   45  git commit -m "firstfirst"
+   46  git branch -M main
+   47  heroku git:remote -a alfredo
+   48  history
+   49  heroku create alfredo --manifest
+   50  heroku git:remote -a alfredo
+   51  git push heroku HEAD:master
+   52  heroku logs --tail
+   53  npm install express axios
+   54  ls
+   55  vi package
+   56  ls
+   57  vi package.json
+   58  heroku create alfredo --manifest
+   59  git init
+   60  git add -A
+   61  git commit -m "firstfirst"
+   62  git branch -M main
+   63  heroku git:remote -a alfredo
+   64  git push heroku HEAD:master
+   65  vi node.js
+   66  vi app.js
+   67  vi appTwo.js
+   68  node appTwo.js
+   69  ls
+   70  vi package.json
+   71  ls
+   72  vi Dockerfile
+   73  vi heroku.yml
+   74  sudo docker build -t alfredoTwo .
+   75  sudo docker build -t alfredotwo .
+   76  sudo docker run -p 8080:8080 -tid alfredotwo
+   77  heroku create alfredotwo --manifest
+   78  git init
+   79  git add -A
+   80  git commit -m "firstfirst"
+   81  git branch -M main
+   82  heroku git:remote -a alfredotwo
+   83  git push heroku HEAD:master
+   84  ls
+   85  vi heroku.yml
+   86  vi package.json
+   87  sudo docker build -t alfredotwoparams .
+   88  sudo docker run -p 8080:8080 -tid alfredotwoparams
+   89  heroku create alfredotwoparams --manifest
+   90  git init
+   91  git add -A
+   92  git commit -m "firstfirst"
+   93  git branch -M main
+   94  heroku git:remote -a alfredotwoparams
+   95  git push heroku HEAD:master
+   96  ls
+   97  vi app.js
+   98  vi appTwo.js
+   99  git init
+  100  git add README.md
+  101  git add -A
+  102  git commit -m "first commit"
+  103  git branch -M main
+  104  git remote add origin https://davidalfredostrowski:ghXXXXXXXXXXXXXXXXXXXXbd@github.com/davidalfredostrowski/etherscan_endpoint_app.git
+  105  git push -u origin main
+  106  ls
+  107  history
+
+
+
+
+
+ETH wallet
+0x758b8178A9A4B7206D1f648c4a77C515CbaC7000
+
+
+USDT wallet
+0x9f8a08B903Cd76644733e26F3E6BBA90983dcc65
+
+token
+JXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+http://localhost:8080/eth_balance?address=0x758b8178A9A4B7206D1f648c4a77C515CbaC7000
+ec2-34-217-208-104.us-west-2.compute.amazonaws.com
+
+http://localhost:8080/usdt_balance?address=0x9f8a08B903Cd76644733e26F3E6BBA90983dcc65
+ec2-34-217-208-104.us-west-2.compute.amazonaws.com
